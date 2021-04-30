@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+​
+.header{
+    background-image: url(./images/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+​
+.menu{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.menu > img{
+    width: 80px;
+}
+​
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+​
+.header-heading > p{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+​
+.header-heading{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+​
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-bottom: 40px;
+    font-size: 50px;
+    margin-top: -1px;
+    text-align: center;
+}
+​
+​
+.banner > :nth-child(2){
+    font-style: italic;
+    background-image: url(./Images/foodtop/breakfast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+​
+.banner > :nth-child(3){
+    background-image: url(./Images/foodtop/lunch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+​
+.banner > :nth-child(4){
+    background-image: url(./Images/foodtop/dinner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+    width:25%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+​
+.inner-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+​
+.inner-banner > :first-child{
+    padding-bottom: 30px;
+    color: #4e4e4e;
+    width: 100%;
+    text-align: center;
+    padding-top: 5.5%;
+    padding-bottom: 7%;
+}
+​
+.inner-banner > :nth-child(2){
+    background-color: #f15b29;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
